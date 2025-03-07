@@ -4,6 +4,7 @@ class HashMap:
         self.size = 1000
         self.map = [None] * self.size
 
+    # Hash function
     def _get_hash(self, key):
         hash = 0
         for char in str(key):
